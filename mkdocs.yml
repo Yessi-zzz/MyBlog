@@ -48,7 +48,8 @@ plugins:
       debug_color: yellow
   - meta:
       enabled: true
-  - blog
+  - blog:
+      archive: false
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
@@ -58,11 +59,13 @@ plugins:
         - tags 
 
 nav:
-  - '我':
+  - 我:
     - Yessi/index.md
     - 我的桌面: Yessi/我的桌面/myDesktop.md
-  - '博客':
-    - blog/index.md
-    - obsidian笔记: blog/post/Fibonacci Number.md
-    
+  - 笔记:
+    - Notes/index.md
+    - 代码: notes/codes/
+    - Finbonacci Sequence: notes/codes/fibonacci.md
+
+
    
