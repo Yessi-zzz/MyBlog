@@ -1,8 +1,10 @@
 ---
 date: 2025-11-04
+categories: 
+  - codes
 tags:
   - DP
-  - cods
+  - codes
   - problems
 ---
 > **Recurrence relation:**

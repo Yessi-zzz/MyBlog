@@ -9,7 +9,6 @@ theme:
     scheme: slate
     primary: orange
     accent: pink
-  favicon: images/yeIcon.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -17,12 +16,12 @@ theme:
     - navigation.tracking # 追踪并高亮当前活动页面
     - navigation.tabs # 标签页导航，移动设备不显示
     - navigation.path
-    - navigation.sections # 分区功能，移动设备不显示
+    - navigation.top # back to top 按钮
     - toc.follow
     - search.suggest # 搜索建议
     - search.highlight # 高亮搜索结果
     - navigation.indexes # 会有一个index页面,而不是打开tab的第一篇文章
-    - navigation.expand
+    - navigation.expand # 核心功能：允许展开和收缩菜单
 
 markdown_extensions:  # 支持数学公式 such as LaTeX, MathML, AsciiMath
   - pymdownx.arithmatex:
@@ -33,6 +32,11 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Yessi-zzz
+    - icon: fontawesome/brands/bilibili
+      link: https://twitter.com/Yessi_zzzhttps://space.bilibili.com/290156913?spm_id_from=333.40138.0.0
   consent:
     title: Cookie consent
     description: >- 
@@ -59,6 +63,8 @@ plugins:
       enabled: true
   - blog:
       archive: false
+  - tags
+  - search
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
@@ -69,12 +75,12 @@ plugins:
 
 nav:
   - 我:
-    - Yessi/index.md
-    - 我的桌面: Yessi/我的桌面/myDesktop.md
-  - 笔记:
-    - notes/index.md
-    - 代码: notes/codes/
-    - Finbonacci Sequence: notes/codes/Fibonacci Number.md
-
+      - Yessi/index.md
+      - 我的桌面: Yessi/我的桌面/myDesktop.md
+  - Notes:
+      - notes/index.md
+      - Codes:
+          - Finbonacci Sequence: notes/codes/Fibonacci Number.md
+          - Knapsack Problem: notes/codes/Knapsack Problem.md
 
    
