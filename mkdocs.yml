@@ -14,14 +14,23 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.tracking
-    - navigation.tabs
+    - navigation.tracking # 追踪并高亮当前活动页面
+    - navigation.tabs # 标签页导航，移动设备不显示
     - navigation.path
+    - navigation.sections # 分区功能，移动设备不显示
     - toc.follow
-    - search.suggest
-    - navigation.indexes 
+    - search.suggest # 搜索建议
+    - search.highlight # 高亮搜索结果
+    - navigation.indexes # 会有一个index页面,而不是打开tab的第一篇文章
     - navigation.expand
 
+markdown_extensions:  # 支持数学公式 such as LaTeX, MathML, AsciiMath
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   consent:
@@ -63,9 +72,9 @@ nav:
     - Yessi/index.md
     - 我的桌面: Yessi/我的桌面/myDesktop.md
   - 笔记:
-    - Notes/index.md
+    - notes/index.md
     - 代码: notes/codes/
-    - Finbonacci Sequence: notes/codes/fibonacci.md
+    - Finbonacci Sequence: notes/codes/Fibonacci Number.md
 
 
    
