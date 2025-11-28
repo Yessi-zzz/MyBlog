@@ -45,8 +45,8 @@
 ### 手柄
 #### **飞智 黑武士4 Pro**
 
-* 341¥
 * 适用平台: PC, SWITCH
 * [驱动软件下载](https://www.flydigi.com/index/down?nav_id=2)
+* 341¥
 
 

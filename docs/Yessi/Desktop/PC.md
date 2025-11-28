@@ -1,5 +1,5 @@
 ## Mac
-### **MacBook Pro 13-inch, M2, 2022**
+### **MacBook Pro 13-inch 2022**
 
 * CPU: Apple M2
 * RAM: 8 GB
@@ -10,7 +10,7 @@
 
 
 ## Windows
-### **联想 拯救者 R9000P(2025)**
+### **联想 拯救者 R9000P 2025**
 
 * CPU: AMD RYZEN 9 8945HX
 * RAM: 三星 32GB DDR5 5200MHZ (16GB + 16GB)
