@@ -17,6 +17,6 @@
 * Storage: UMIS RPJY1T24MML1AWY (1T)
 * GPU: NVIDIA GeForce RTX 5070Ti (12GB)
 * Display: NE16QDM-NZB
-* System: AtlasOS
+* System: Windows 11 专业版 / AtlasOS
 * 12934¥
 
